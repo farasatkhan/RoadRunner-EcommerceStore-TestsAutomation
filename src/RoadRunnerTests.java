@@ -10,8 +10,7 @@ public class RoadRunnerTests {
 
 	public static void main(String[] args) {
 		
-        System.setProperty("webdriver.chrome.driver", "C:\\personal\\DevOps\\Tests\\chromedriver_win32\\chromedriver.exe");
-        
+        System.setProperty("webdriver.chrome.driver", "C:\\personal\\DevOps\\RoadRunner-EcommerceStore-TestsAutomation\\chromedriver_win32\\chromedriver.exe");
         // Enable headless mode
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless");
